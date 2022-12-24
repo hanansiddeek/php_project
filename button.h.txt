@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+
+<!-- Event Handling -->
+<button id="abc" onclick="ButtonChange()"> Jack </button>
+
+</body>
+</html>
+
+<script type="text/javascript">
+	function ButtonChange() {
+		/*var button = document.getElementById ('abc')
+		button.innerHTML = "Sparrow" */
+
+		//document.getElementById ('abc').innerHTML = "Sparrow"
+
+		//document.getElementById ('abc').innerHTML = alert("Captain Jack Sparrow")
+
+		var button = document.getElementById ('abc')
+		button.style.background = "Blue"
+
+
+	}
+
+
+
+</script>
